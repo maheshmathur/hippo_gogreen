@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>61f5ffb0-11b5-4d9f-8d56-25cd6a6c6d81</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>fa749226-3d74-48f2-8c71-8a5a50ca9bc3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="ipad-case">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>908be387-0d16-4659-8e78-e1d56ac69321</sv:value>
+    </sv:property>
+    <sv:node sv:name="ipad-case">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>65fd8a32-d7d0-4fa9-8aba-d9caa80cd84c</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Great iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>10.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/ipad-case/ipad-case[3]</sv:value>
+        <sv:value>products/ipad-case/ipad-case[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:26:10.298+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:26:10.820+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>86a7cc0b-0dcd-4fd5-a105-ba4b1c384a0c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui felis, vulputate quis vulputate aliquet, efficitur ut ligula. Sed hendrerit libero sit amet tortor bibendum maximus. Cras ut pharetra velit. Fusce dignissim risus velit, eget vulputate enim auctor eget. Integer mollis rhoncus sollicitudin. Pellentesque dapibus efficitur fringilla. Donec commodo mauris eu metus iaculis, pretium rhoncus purus ullamcorper. Fusce sollicitudin mauris sit amet risus pretium porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, urna vitae maximus volutpat, orci orci euismod velit, in sagittis magna elit nec libero. Suspendisse faucibus suscipit ligula sit amet bibendum. Sed urna lacus, consequat nec purus consequat, molestie pretium lacus. Cras arcu dolor, porta vitae risus ac, dictum tristique tellus. Etiam in egestas risus. Sed tellus tellus, dignissim sed quam in, consequat egestas tellus.&lt;/p&gt;
+
+&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>94321db2-0a8f-4d66-bd82-bc25b5e509f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>iPad Case</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="ipad-case">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b051e7c9-6293-4b60-8fd1-57eb5024241a</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Great iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>10.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/ipad-case/ipad-case[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:26:10.298+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:27:30.411+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>86a7cc0b-0dcd-4fd5-a105-ba4b1c384a0c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui felis, vulputate quis vulputate aliquet, efficitur ut ligula. Sed hendrerit libero sit amet tortor bibendum maximus. Cras ut pharetra velit. Fusce dignissim risus velit, eget vulputate enim auctor eget. Integer mollis rhoncus sollicitudin. Pellentesque dapibus efficitur fringilla. Donec commodo mauris eu metus iaculis, pretium rhoncus purus ullamcorper. Fusce sollicitudin mauris sit amet risus pretium porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, urna vitae maximus volutpat, orci orci euismod velit, in sagittis magna elit nec libero. Suspendisse faucibus suscipit ligula sit amet bibendum. Sed urna lacus, consequat nec purus consequat, molestie pretium lacus. Cras arcu dolor, porta vitae risus ac, dictum tristique tellus. Etiam in egestas risus. Sed tellus tellus, dignissim sed quam in, consequat egestas tellus.&lt;/p&gt;
+
+&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>94321db2-0a8f-4d66-bd82-bc25b5e509f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="ipad-case">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9d7dff29-ff8b-4a79-9587-25af3aaaec6c</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Great iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>10.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>iPad Case</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/ipad-case/ipad-case[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:26:10.298+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:27:30.411+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:27:37.315+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>86a7cc0b-0dcd-4fd5-a105-ba4b1c384a0c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui felis, vulputate quis vulputate aliquet, efficitur ut ligula. Sed hendrerit libero sit amet tortor bibendum maximus. Cras ut pharetra velit. Fusce dignissim risus velit, eget vulputate enim auctor eget. Integer mollis rhoncus sollicitudin. Pellentesque dapibus efficitur fringilla. Donec commodo mauris eu metus iaculis, pretium rhoncus purus ullamcorper. Fusce sollicitudin mauris sit amet risus pretium porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, urna vitae maximus volutpat, orci orci euismod velit, in sagittis magna elit nec libero. Suspendisse faucibus suscipit ligula sit amet bibendum. Sed urna lacus, consequat nec purus consequat, molestie pretium lacus. Cras arcu dolor, porta vitae risus ac, dictum tristique tellus. Etiam in egestas risus. Sed tellus tellus, dignissim sed quam in, consequat egestas tellus.&lt;/p&gt;
+
+&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>94321db2-0a8f-4d66-bd82-bc25b5e509f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="aluminium-bottle">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8197ca25-a7cc-4b38-b08c-af0360ffdeea</sv:value>
+    </sv:property>
+    <sv:node sv:name="aluminium-bottle">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3695c372-4a1e-4fbf-9606-a53f9c77f433</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>8.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/aluminium-bottle/aluminium-bottle[2]</sv:value>
+        <sv:value>products/aluminium-bottle/aluminium-bottle[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:28:29.331+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:28:29.653+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>24f92ad2-cb27-42cc-aa4a-504929c73045</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;
+
+&lt;p&gt;Proin quis fringilla nibh, eu fringilla est. Aenean tempor pretium ex sed ullamcorper. Nam euismod dui a placerat dictum. Aenean a blandit augue. Mauris sit amet metus a sapien vestibulum congue. In pretium laoreet dolor quis feugiat. Proin ultrices dolor condimentum, pharetra mauris sit amet, tempus nisi. Curabitur in tincidunt mauris. Ut lobortis placerat pretium. In hac habitasse platea dictumst.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>5672e792-e756-48bd-ad37-5f6af4ab7268</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="aluminium-bottle">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5e252f90-25bf-45db-863e-7a0af6e3a706</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>8.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/aluminium-bottle/aluminium-bottle[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:28:29.331+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:09.143+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>24f92ad2-cb27-42cc-aa4a-504929c73045</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;
+
+&lt;p&gt;Proin quis fringilla nibh, eu fringilla est. Aenean tempor pretium ex sed ullamcorper. Nam euismod dui a placerat dictum. Aenean a blandit augue. Mauris sit amet metus a sapien vestibulum congue. In pretium laoreet dolor quis feugiat. Proin ultrices dolor condimentum, pharetra mauris sit amet, tempus nisi. Curabitur in tincidunt mauris. Ut lobortis placerat pretium. In hac habitasse platea dictumst.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>5672e792-e756-48bd-ad37-5f6af4ab7268</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="aluminium-bottle">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c4e4f54d-8dbb-465c-ba55-4a10e562cc99</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>8.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Aluminium Bottle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/aluminium-bottle/aluminium-bottle[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:28:29.331+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:09.143+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:13.965+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>24f92ad2-cb27-42cc-aa4a-504929c73045</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;
+
+&lt;p&gt;Proin quis fringilla nibh, eu fringilla est. Aenean tempor pretium ex sed ullamcorper. Nam euismod dui a placerat dictum. Aenean a blandit augue. Mauris sit amet metus a sapien vestibulum congue. In pretium laoreet dolor quis feugiat. Proin ultrices dolor condimentum, pharetra mauris sit amet, tempus nisi. Curabitur in tincidunt mauris. Ut lobortis placerat pretium. In hac habitasse platea dictumst.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>5672e792-e756-48bd-ad37-5f6af4ab7268</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="family-tent">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8c9501fc-6e70-478c-a2ea-e45a12c29acb</sv:value>
+    </sv:property>
+    <sv:node sv:name="family-tent">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>71dd1af8-d817-4bab-828c-fd2ac3828ef6</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Family tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>25.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Family Tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/family-tent/family-tent[2]</sv:value>
+        <sv:value>products/family-tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:53.465+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:53.731+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>80c07577-37c5-4b5c-8c3e-5b7fc2678219</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;
+
+&lt;p&gt;Proin quis fringilla nibh, eu fringilla est. Aenean tempor pretium ex sed ullamcorper. Nam euismod dui a placerat dictum. Aenean a blandit augue. Mauris sit amet metus a sapien vestibulum congue. In pretium laoreet dolor quis feugiat. Proin ultrices dolor condimentum, pharetra mauris sit amet, tempus nisi. Curabitur in tincidunt mauris. Ut lobortis placerat pretium. In hac habitasse platea dictumst.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>687b7e50-464f-4791-9cbb-8fd786068033</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Family Tent</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="family-tent">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>07e507a1-8819-490c-9bd0-541ed8aa175f</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:introduction" sv:type="String">
+        <sv:value>Family tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:price" sv:type="Double">
+        <sv:value>25.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Family Tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/family-tent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:29:53.465+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-22T01:30:19.033+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>80c07577-37c5-4b5c-8c3e-5b7fc2678219</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Nulla bibendum risus in mi consectetur, posuere consequat tellus aliquet. Suspendisse vel ex nec turpis porta vulputate. Pellentesque suscipit nibh eget risus facilisis iaculis. Aenean sit amet malesuada ante. Cras ante risus, commodo at tristique sed, iaculis eu mauris. Cras hendrerit nunc non varius imperdiet. Vivamus tortor ex, condimentum sed magna nec, dignissim vulputate tellus. Donec eget sapien varius, scelerisque nisi ac, dignissim est. Ut vitae dignissim sem. Sed non suscipit ipsum, eu euismod est.&lt;/p&gt;
+
+&lt;p&gt;Proin quis fringilla nibh, eu fringilla est. Aenean tempor pretium ex sed ullamcorper. Nam euismod dui a placerat dictum. Aenean a blandit augue. Mauris sit amet metus a sapien vestibulum congue. In pretium laoreet dolor quis feugiat. Proin ultrices dolor condimentum, pharetra mauris sit amet, tempus nisi. Curabitur in tincidunt mauris. Ut lobortis placerat pretium. In hac habitasse platea dictumst.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>687b7e50-464f-4791-9cbb-8fd786068033</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

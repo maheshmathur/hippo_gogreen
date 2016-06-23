@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="banners">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>fb93c57c-76c6-45b5-8843-4c7b753ab110</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-banner-document</sv:value>
+    <sv:value>new-banner-folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>c22e96b5-50eb-4d6a-9b6a-20b53943aef9</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="banner1">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>895fb1b6-410d-4972-9894-6b6a06d2b361</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner1">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a9782777-bfe9-4902-ab5a-ac9c2ea32bed</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Sample banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/banner1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:04:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:04:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>708bf680-2fa1-4421-9dd8-cce2f6b17b61</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Banner description&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b89d576f-680a-4bbf-9c27-2dced9da3d6c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="banner2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9a3f1f5c-5302-43c4-9bec-584e810ffa2f</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>banner2</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="banner2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ba963c7b-397b-4051-b30e-0c144db2ebbd</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Sample banner 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/banner2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:00:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:04:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-03-20T17:04:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e36d91a9-b161-4b1b-9ca5-63406368f5b0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Banner description&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>db5907cc-e507-460e-b54d-de5d5c784e0a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="10-simple-steps-to-green-your-office">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>64352b04-bdf9-4926-87e9-7ec17172c59b</sv:value>
+    </sv:property>
+    <sv:node sv:name="10-simple-steps-to-green-your-office">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a5dd0576-eaf0-4433-a4c3-417fb6d304b6</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>10 Simple Steps to Green Your Office</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/10-simple-steps-to-green-your-office/10-simple-steps-to-green-your-office[3]</sv:value>
+        <sv:value>banners/10-simple-steps-to-green-your-office/10-simple-steps-to-green-your-office[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:52:23.907+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:56:32.621+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f19616fb-e59d-4775-87c0-86784b9aaee7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;strong&gt;1&amp;nbsp;Keep a recycling container beside your desk to toss recyclable papers, junk mail, etc.&lt;/strong&gt;&amp;nbsp;If it doesn&amp;apos;t require you to leave your desk, you&amp;apos;ll use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2&amp;nbsp;Invest in a paper shredder.&lt;/strong&gt;&amp;nbsp;Use shredded paper in place of tissue paper in gift bags. Use it in place of packing peanuts or Styrofoam in packages. Use shredded paper as bedding for small pets, in lieu of expensive, purchased bedding. Shred newsprint with soy-based ink and add to compost bin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3&amp;nbsp;Whenever possible, use paper clips or staples instead of tape.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4&amp;nbsp;When purchasing stationery and office supplies, choose items made from recycled materials, or materials that can be recycled when you are finished with them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5&amp;nbsp;Reduce your energy consumption.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Unplug seldom-used electronic devices and turn off devices when not in use&lt;/li&gt;
+ &lt;li&gt;Take advantage of natural daylight whenever possible.&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8f1ca453-3955-457f-b5e8-1417f98fca47</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>10 Simple Steps to Green Your Office</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="10-simple-steps-to-green-your-office">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>be56f376-92a1-43aa-8f79-82f66fff4b62</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>10 Simple Steps to Green Your Office</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/10-simple-steps-to-green-your-office/10-simple-steps-to-green-your-office[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:52:23.907+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:56:31.844+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f19616fb-e59d-4775-87c0-86784b9aaee7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;strong&gt;1&amp;nbsp;Keep a recycling container beside your desk to toss recyclable papers, junk mail, etc.&lt;/strong&gt;&amp;nbsp;If it doesn&amp;apos;t require you to leave your desk, you&amp;apos;ll use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2&amp;nbsp;Invest in a paper shredder.&lt;/strong&gt;&amp;nbsp;Use shredded paper in place of tissue paper in gift bags. Use it in place of packing peanuts or Styrofoam in packages. Use shredded paper as bedding for small pets, in lieu of expensive, purchased bedding. Shred newsprint with soy-based ink and add to compost bin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3&amp;nbsp;Whenever possible, use paper clips or staples instead of tape.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4&amp;nbsp;When purchasing stationery and office supplies, choose items made from recycled materials, or materials that can be recycled when you are finished with them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5&amp;nbsp;Reduce your energy consumption.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Unplug seldom-used electronic devices and turn off devices when not in use&lt;/li&gt;
+ &lt;li&gt;Take advantage of natural daylight whenever possible.&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8f1ca453-3955-457f-b5e8-1417f98fca47</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="10-simple-steps-to-green-your-office">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>20f84ac2-9b32-4c80-b1bf-1addf7930585</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>10 Simple Steps to Green Your Office</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/10-simple-steps-to-green-your-office/10-simple-steps-to-green-your-office[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:52:23.907+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:56:31.844+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:56:47.161+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f19616fb-e59d-4775-87c0-86784b9aaee7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;strong&gt;1&amp;nbsp;Keep a recycling container beside your desk to toss recyclable papers, junk mail, etc.&lt;/strong&gt;&amp;nbsp;If it doesn&amp;apos;t require you to leave your desk, you&amp;apos;ll use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2&amp;nbsp;Invest in a paper shredder.&lt;/strong&gt;&amp;nbsp;Use shredded paper in place of tissue paper in gift bags. Use it in place of packing peanuts or Styrofoam in packages. Use shredded paper as bedding for small pets, in lieu of expensive, purchased bedding. Shred newsprint with soy-based ink and add to compost bin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3&amp;nbsp;Whenever possible, use paper clips or staples instead of tape.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4&amp;nbsp;When purchasing stationery and office supplies, choose items made from recycled materials, or materials that can be recycled when you are finished with them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5&amp;nbsp;Reduce your energy consumption.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;Unplug seldom-used electronic devices and turn off devices when not in use&lt;/li&gt;
+ &lt;li&gt;Take advantage of natural daylight whenever possible.&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>8f1ca453-3955-457f-b5e8-1417f98fca47</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0f9a658c-a419-4c68-ab78-2dc6cc166500</sv:value>
+    </sv:property>
+    <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e2a7b429-5285-4541-b6c3-472bffd332df</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Is a Smart Thermostat Worth the Investment?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[3]</sv:value>
+        <sv:value>banners/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:57:26.047+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:57:26.976+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>691c728a-5c47-4f12-a6f6-6877673dcf6c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Whether you live in a house or a condo, the heating and cooling of your home is responsible for&amp;nbsp;&lt;a href="http://www.energystar.gov/"&gt;45% of your monthly hydro bill&lt;/a&gt;. A traditional thermostat will keep your home temperature constant even when you are away or sleeping. With a programmable thermostat, you can turn down the heating and cooling for times when you don’t need it, leaving you with a more manageable hydro bill. However, these units require some initial investment, so are they worth the investment?&lt;/p&gt;
+
+&lt;p&gt;Smart thermostats can reduce your hydro bill significantly and will be a good investment in the long run if they are used correctly. Some manufacturers claim that programmable thermostats can reduce your heating by up to 30%, but these figures are based on perfect conditions that rarely occur outside of the lab. The&amp;nbsp;&lt;a href="http://www.energystar.gov/ia/partners/prod_development/revisions/downloads/thermostats/Summary.pdf"&gt;EPA warns&lt;/a&gt;: “Consumers are often advised that installing a programmable thermostat can save them anywhere from 10 to 30% on the space heating and cooling portion of their energy bills. While reliant on proper use of the programmable thermostat, such savings are easily true in theory; however, there needs to be more field-tested data to better substantiate savings claims.&amp;nbsp;Analyses from recent field studies have suggested that programmable thermostats may be achieving considerably lower savings than their estimated potential.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.cee1.org/eval/db_pdf/933.pdf"&gt;Some studies&lt;/a&gt;&amp;nbsp;into the efficiency of programmable thermostats found that savings were in the 6.2 to 6.8%.&amp;nbsp;&lt;a href="http://eec.ucdavis.edu/ACEEE/2010/data/papers/1953.pdf"&gt;One study in Florida&lt;/a&gt;&amp;nbsp;even discovered that homes that utilized programmable thermostats actually used 12% more energy.&lt;/p&gt;
+
+&lt;p&gt;Realistically, savings seem to average around&amp;nbsp;&lt;a href="https://nest.com/thermostat/real-savings/"&gt;10-12% for heating and 15% for cooling&lt;/a&gt;. This would mean that you save $131-$145 a year and can pay off the initial investment for the unit and installation in about two years.&lt;/p&gt;
+
+&lt;p&gt;Homeowners can save even more now that Enbridge has introduced its&amp;nbsp;&lt;a href="http://knowyourenergyscore.ca/smart-thermostats/"&gt;Smart Thermostats Program&lt;/a&gt;&amp;nbsp;which offers a $100 rebate for home and condo owners who purchase and install a&amp;nbsp;&lt;a href="https://nest.com/ca/"&gt;Nest&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href="https://www.ecobee.com/"&gt;Ecobee&lt;/a&gt;&amp;nbsp;thermostat and before December 31, 2016.&lt;/p&gt;
+
+&lt;p&gt;What this tells us is that using a programmable thermostat can be very rewarding and can result in savings and reduced hydro bills, but this requires a little education and commitment from the home occupants. Homeowners must learn to use the programmable thermostats correctly to ensure that the home is kept comfortable while using as little energy as possible. Limit manual overrides and use the ‘vacation’ feature when your home will be unoccupied for several days. Either educate all the home occupants or restrict use to those who know how to use the programmable thermostat effectively.&lt;/p&gt;
+
+&lt;p&gt;Take time to programme your smart thermostat correctly and ask your installation professional to show you how to use all of the features.&lt;/p&gt;
+
+&lt;p&gt;A survey by&amp;nbsp;&lt;a href="http://www.bhg.com/"&gt;Better Homes and Gardens&lt;/a&gt;&amp;nbsp;found that millennials rate homes with smart technology higher, with 70% saying that smart technology would make their homes more energy efficient. Introducing a programmable thermostat is likely to raise the value of your home to young families who are entering the market.&lt;/p&gt;
+
+&lt;p&gt;Home and condo owners should do their due diligence when investigating which home improvements will render the greatest financial rewards and increase the value of their home. You can utilize the&amp;nbsp;&lt;a href="https://ecoliving.scotiabank.com/calculate-savings"&gt;Home Energy Savings Calculator&lt;/a&gt;&amp;nbsp;to see which investments are best for your home.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>308693ed-da4b-46e7-ad90-03cfee73b218</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Is a Smart Thermostat Worth the Investment?</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a4096c27-2f9c-47cd-a9e3-9a08c31861a8</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Is a Smart Thermostat Worth the Investment?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:57:26.047+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:13.524+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>691c728a-5c47-4f12-a6f6-6877673dcf6c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Whether you live in a house or a condo, the heating and cooling of your home is responsible for&amp;nbsp;&lt;a href="http://www.energystar.gov/"&gt;45% of your monthly hydro bill&lt;/a&gt;. A traditional thermostat will keep your home temperature constant even when you are away or sleeping. With a programmable thermostat, you can turn down the heating and cooling for times when you don’t need it, leaving you with a more manageable hydro bill. However, these units require some initial investment, so are they worth the investment?&lt;/p&gt;
+
+&lt;p&gt;Smart thermostats can reduce your hydro bill significantly and will be a good investment in the long run if they are used correctly. Some manufacturers claim that programmable thermostats can reduce your heating by up to 30%, but these figures are based on perfect conditions that rarely occur outside of the lab. The&amp;nbsp;&lt;a href="http://www.energystar.gov/ia/partners/prod_development/revisions/downloads/thermostats/Summary.pdf"&gt;EPA warns&lt;/a&gt;: “Consumers are often advised that installing a programmable thermostat can save them anywhere from 10 to 30% on the space heating and cooling portion of their energy bills. While reliant on proper use of the programmable thermostat, such savings are easily true in theory; however, there needs to be more field-tested data to better substantiate savings claims.&amp;nbsp;Analyses from recent field studies have suggested that programmable thermostats may be achieving considerably lower savings than their estimated potential.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.cee1.org/eval/db_pdf/933.pdf"&gt;Some studies&lt;/a&gt;&amp;nbsp;into the efficiency of programmable thermostats found that savings were in the 6.2 to 6.8%.&amp;nbsp;&lt;a href="http://eec.ucdavis.edu/ACEEE/2010/data/papers/1953.pdf"&gt;One study in Florida&lt;/a&gt;&amp;nbsp;even discovered that homes that utilized programmable thermostats actually used 12% more energy.&lt;/p&gt;
+
+&lt;p&gt;Realistically, savings seem to average around&amp;nbsp;&lt;a href="https://nest.com/thermostat/real-savings/"&gt;10-12% for heating and 15% for cooling&lt;/a&gt;. This would mean that you save $131-$145 a year and can pay off the initial investment for the unit and installation in about two years.&lt;/p&gt;
+
+&lt;p&gt;Homeowners can save even more now that Enbridge has introduced its&amp;nbsp;&lt;a href="http://knowyourenergyscore.ca/smart-thermostats/"&gt;Smart Thermostats Program&lt;/a&gt;&amp;nbsp;which offers a $100 rebate for home and condo owners who purchase and install a&amp;nbsp;&lt;a href="https://nest.com/ca/"&gt;Nest&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href="https://www.ecobee.com/"&gt;Ecobee&lt;/a&gt;&amp;nbsp;thermostat and before December 31, 2016.&lt;/p&gt;
+
+&lt;p&gt;What this tells us is that using a programmable thermostat can be very rewarding and can result in savings and reduced hydro bills, but this requires a little education and commitment from the home occupants. Homeowners must learn to use the programmable thermostats correctly to ensure that the home is kept comfortable while using as little energy as possible. Limit manual overrides and use the ‘vacation’ feature when your home will be unoccupied for several days. Either educate all the home occupants or restrict use to those who know how to use the programmable thermostat effectively.&lt;/p&gt;
+
+&lt;p&gt;Take time to programme your smart thermostat correctly and ask your installation professional to show you how to use all of the features.&lt;/p&gt;
+
+&lt;p&gt;A survey by&amp;nbsp;&lt;a href="http://www.bhg.com/"&gt;Better Homes and Gardens&lt;/a&gt;&amp;nbsp;found that millennials rate homes with smart technology higher, with 70% saying that smart technology would make their homes more energy efficient. Introducing a programmable thermostat is likely to raise the value of your home to young families who are entering the market.&lt;/p&gt;
+
+&lt;p&gt;Home and condo owners should do their due diligence when investigating which home improvements will render the greatest financial rewards and increase the value of their home. You can utilize the&amp;nbsp;&lt;a href="https://ecoliving.scotiabank.com/calculate-savings"&gt;Home Energy Savings Calculator&lt;/a&gt;&amp;nbsp;to see which investments are best for your home.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>308693ed-da4b-46e7-ad90-03cfee73b218</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3cfd1312-22b8-41eb-87bf-e840ff2b296b</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>Is a Smart Thermostat Worth the Investment?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:57:26.047+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:13.524+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-06-21T14:00:51.686+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>691c728a-5c47-4f12-a6f6-6877673dcf6c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Whether you live in a house or a condo, the heating and cooling of your home is responsible for&amp;nbsp;&lt;a href="http://www.energystar.gov/"&gt;45% of your monthly hydro bill&lt;/a&gt;. A traditional thermostat will keep your home temperature constant even when you are away or sleeping. With a programmable thermostat, you can turn down the heating and cooling for times when you don’t need it, leaving you with a more manageable hydro bill. However, these units require some initial investment, so are they worth the investment?&lt;/p&gt;
+
+&lt;p&gt;Smart thermostats can reduce your hydro bill significantly and will be a good investment in the long run if they are used correctly. Some manufacturers claim that programmable thermostats can reduce your heating by up to 30%, but these figures are based on perfect conditions that rarely occur outside of the lab. The&amp;nbsp;&lt;a href="http://www.energystar.gov/ia/partners/prod_development/revisions/downloads/thermostats/Summary.pdf"&gt;EPA warns&lt;/a&gt;: “Consumers are often advised that installing a programmable thermostat can save them anywhere from 10 to 30% on the space heating and cooling portion of their energy bills. While reliant on proper use of the programmable thermostat, such savings are easily true in theory; however, there needs to be more field-tested data to better substantiate savings claims.&amp;nbsp;Analyses from recent field studies have suggested that programmable thermostats may be achieving considerably lower savings than their estimated potential.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.cee1.org/eval/db_pdf/933.pdf"&gt;Some studies&lt;/a&gt;&amp;nbsp;into the efficiency of programmable thermostats found that savings were in the 6.2 to 6.8%.&amp;nbsp;&lt;a href="http://eec.ucdavis.edu/ACEEE/2010/data/papers/1953.pdf"&gt;One study in Florida&lt;/a&gt;&amp;nbsp;even discovered that homes that utilized programmable thermostats actually used 12% more energy.&lt;/p&gt;
+
+&lt;p&gt;Realistically, savings seem to average around&amp;nbsp;&lt;a href="https://nest.com/thermostat/real-savings/"&gt;10-12% for heating and 15% for cooling&lt;/a&gt;. This would mean that you save $131-$145 a year and can pay off the initial investment for the unit and installation in about two years.&lt;/p&gt;
+
+&lt;p&gt;Homeowners can save even more now that Enbridge has introduced its&amp;nbsp;&lt;a href="http://knowyourenergyscore.ca/smart-thermostats/"&gt;Smart Thermostats Program&lt;/a&gt;&amp;nbsp;which offers a $100 rebate for home and condo owners who purchase and install a&amp;nbsp;&lt;a href="https://nest.com/ca/"&gt;Nest&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href="https://www.ecobee.com/"&gt;Ecobee&lt;/a&gt;&amp;nbsp;thermostat and before December 31, 2016.&lt;/p&gt;
+
+&lt;p&gt;What this tells us is that using a programmable thermostat can be very rewarding and can result in savings and reduced hydro bills, but this requires a little education and commitment from the home occupants. Homeowners must learn to use the programmable thermostats correctly to ensure that the home is kept comfortable while using as little energy as possible. Limit manual overrides and use the ‘vacation’ feature when your home will be unoccupied for several days. Either educate all the home occupants or restrict use to those who know how to use the programmable thermostat effectively.&lt;/p&gt;
+
+&lt;p&gt;Take time to programme your smart thermostat correctly and ask your installation professional to show you how to use all of the features.&lt;/p&gt;
+
+&lt;p&gt;A survey by&amp;nbsp;&lt;a href="http://www.bhg.com/"&gt;Better Homes and Gardens&lt;/a&gt;&amp;nbsp;found that millennials rate homes with smart technology higher, with 70% saying that smart technology would make their homes more energy efficient. Introducing a programmable thermostat is likely to raise the value of your home to young families who are entering the market.&lt;/p&gt;
+
+&lt;p&gt;Home and condo owners should do their due diligence when investigating which home improvements will render the greatest financial rewards and increase the value of their home. You can utilize the&amp;nbsp;&lt;a href="https://ecoliving.scotiabank.com/calculate-savings"&gt;Home Energy Savings Calculator&lt;/a&gt;&amp;nbsp;to see which investments are best for your home.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>308693ed-da4b-46e7-ad90-03cfee73b218</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="how-to-green-your-dorm-room">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>04a48c51-2f5c-4b51-bc3f-cc2343e3c2c6</sv:value>
+    </sv:property>
+    <sv:node sv:name="how-to-green-your-dorm-room">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>701147cf-242a-4f17-8145-c60c29cee389</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>How to Green Your Dorm Room</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/how-to-green-your-dorm-room/how-to-green-your-dorm-room[3]</sv:value>
+        <sv:value>banners/how-to-green-your-dorm-room/how-to-green-your-dorm-room[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:31.651+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:32.334+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4d0d08e1-e4e1-45ed-83f7-0a987cf63143</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Every year, intrepid young men and women set out for college. Even more exciting than this, is that for many of them, it&amp;apos;s their first chance to live away from home. But, with the excitement and fun of furnishing a new dorm room comes a price. Every year, college students (and their parents) generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be green has never been easier. All it takes is a little effort, a little creativity, and a few tips and tricks. And that&amp;apos;s what Treehugger is here for.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: A newer version of this guide is now live at our sister site, Planet Green. Click on over to&amp;nbsp;&lt;a href="http://planetgreen.discovery.com/go-green/dorm-rooms/index.html"&gt;How to Go Green: Dorm Rooms&lt;/a&gt;&amp;nbsp;for the full story.&lt;/strong&gt;&lt;u&gt;&lt;strong&gt;Top 10 Tips&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Keep it local&lt;/strong&gt;&lt;br /&gt;
+Many college students want an &amp;quot;away from home&amp;quot; experience. Just don&amp;apos;t make it a &amp;quot;shipping tons of stuff all over the country&amp;quot; experience. If it&amp;apos;s your first year at school, try to obtain your furnishings locally when you get to school (See tips 2 and 3). If you&amp;apos;re a returning student, think about local storage — many schools offer storage options.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Use the used&lt;/strong&gt;&lt;br /&gt;
+Sure, this may be your first home away from home, and we understand the urge to decorate with all the coolest new stuff from Target or WalMart. Just consider, for a second, how much waste that would mean, assuming most freshmen get relatively new stuff every year of school. See what we mean? Instead, why not check out great used sources of stuff, like local resale shops, Ebay Local, and Craigslist. You&amp;apos;ll be guaranteed to have a really unique room dÃ©cor (see tip 10 to max this out), and you&amp;apos;ll have money left over to throw wild parties (Um, we mean library study snacks)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Capture the free&lt;/strong&gt;&lt;br /&gt;
+Of course, while cheap used stuff is good, there is something better: Free used stuff. If you&amp;apos;re a new freshman, check out Craigslist or Freecycle in your area to see if there are any items like beds, desks, or lamps that you can score for free. If you stayed at school over the summer for research or whatnot, your university may have a coordinated furniture recycling day. Or, you might just hang around during move-out and see what you can collect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Condition yourself, not your air&lt;/strong&gt;&lt;br /&gt;
+One of the most eco-friendly things you can do as a student is to give up air conditioning. Many universities make it really easy for you to do by banning AC units in dorms. But that doesn&amp;apos;t stop some crafty students from sneaking them in. The trouble is, there are millions of students all over the world, which means the potential for hundreds of thousands of energy-sucking AC units. Instead of AC, why not try opening a window, turning on a fan, taking a cold shower before bed, or studying outside. Of course, if you have to have AC for allergies or some other reason, be sure to get an Energy-Star rated low-energy unit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Be sure your fridge is cool&lt;/strong&gt;&lt;br /&gt;
+Another big energy-sucker of dorms is the ol&amp;apos; microfridge. Of course, the best thing you can do is go fridgeless or check into a shared larger fridge (many dorms have shared kitchens with fridges). But if you must have a fridge to yourself, make sure it&amp;apos;s energy-star or other low-energy certified. This can save you 50% of the energy use of regular appliances.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Cook it right&lt;/strong&gt;&lt;br /&gt;
+You may scoff at the microwave/toaster oven combo, but by combining these two cooking appliances with a cheap rice cooker, you&amp;apos;ve got nearly the perfect eco-kitchen. All three of these appliances boast high energy efficiencies relative to their big-kitchen counterparts (see Getting Techie). Take a look at the end of this article for some great cookbooks using just these mini-cooker powerhouses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Paper please&lt;/strong&gt;&lt;br /&gt;
+Sure, it&amp;apos;s not the most sexy of materials, but there are plenty of paper options for dorm dÃ©cor that can be recycled when you out-grow them in a few years. Check out paper wall tiles from MioCulture, paper window treatments from Redi Shade, or make your own paper lampshades. (links)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. See the light&lt;/strong&gt;&lt;br /&gt;
+Halogen torchiere lamps are all the rage right now. They&amp;apos;re super cheap, put out tons of light, and fit in a corner with ease. Unfortunately, some of them use hundreds of watts of electricity, and they&amp;apos;ve been known to cause fires. Stick with compact fluorescents. The newer ones put out great light, use just a trickle of electricity, and last almost forever. This is one thing worth buying again every time you move; by leaving them for your next tenant, you&amp;apos;ll be spreading the green love with every new apartment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Don&amp;apos;t let the sheets hit the fan&lt;/strong&gt;&lt;br /&gt;
+Linens for your new room will make up the bulk of the rest of your buying. When you look for sheets, curtains, or towels, go for organic cotton, if possible. It&amp;apos;s still the same cottony goodness, but you&amp;apos;ll rest easy knowing it&amp;apos;s grown without nasty pesticides.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Re-used doesn&amp;apos;t have to mean re-pulsive&lt;/strong&gt;&lt;br /&gt;
+Just because you got used stuff, doesn&amp;apos;t mean it has to be old and moldy. This is college. You&amp;apos;re supposed to be wild and experimental. So go crazy. Why not try sewing some cushion covers, or pillows for that old couch. Or invite some of your new friends over for a painting party on that old dresser and table. Unleash your inner crafter with great magazines like Make, or Readymade, or sites like Craft, or Inventibles. (links here)&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;So You Wanna Do More?&amp;nbsp;&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;Get the word out&lt;/strong&gt;&lt;br /&gt;
+We recommended that you try to get used furniture for your room, but what if your school doesn&amp;apos;t have a furniture-recycling program? Why not start one yourself. Stuff exchanges are a great way to meet the students around you, and score some new stuff for your old. Put up flyers around your dorm, and spread the word. Or, for a bigger splash, try talking to your head of student affairs or resident life. Furniture waste is a problem for universities too, so they&amp;apos;ll probably jump at the chance to help.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Getting Techie&lt;/strong&gt;&amp;nbsp;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Why are microwaves and crockpots so good?&lt;/strong&gt;&lt;br /&gt;
+Cooking options like microwave ovens, toaster ovens, crock pots, and rice cookers concentrate the heat in the food, instead of heating so much extra air, or metal like conventional ovens and frying pans do. Electric grills are also heavy-duty energy users because they operate at such high temperatures (this also makes them fire hazards, and banned by many dorms). The lowest energy way to a meal is to think about what you need heated up, and what tool best to heat it with. Microwaves heat evenly throughout the food, especially if it is wet, like mashed potatoes, boiling water, or meat. Toaster ovens are really good at browning the surface of food (try cooking chicken or steak part way in a microwave and then browning in a toaster oven. It&amp;apos;s super fast, and delicious.). Rice cookers are great for rice, or rice and frozen vegetables, and some of them come with attachments to steam veggies like broccoli at the same time. Crock pots are a whole other kind of cooking, but with practice, and a good cookbook, they can be the easiest and tastiest kind of food preparation, especially for a time-crunched student.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;By The Numbers&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;+ According to the National Retail Federation, $3.6 billion will be spent this year outfitting dorms.&amp;nbsp;&lt;br /&gt;
++ According to the US Bureau of Labor, 1.8 million new freshmen entered college in the United States in fall 2005.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;From The Archives&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Treehugger.com has been a leader in promoting the green lifestyle and has numerous resources on how others have done just that. For more information, you can begin by checking out the section on Treehugger.com. The articles below were posted on Treehugger and focus on everything you need to have the most kicking dorm room without kicking mother earth&amp;apos;s butt.&lt;br /&gt;
+&lt;br /&gt;
+- Check out these tips on&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/06/user_tips_for_c.php"&gt;Compact Fluorescent bulbs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- If you&amp;apos;re looking to get a good deal on CFL&amp;apos;s,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/08/walmart_to_sell.php"&gt;Walmart may be a low-cost&lt;/a&gt;&amp;nbsp;place to look.&lt;/p&gt;
+
+&lt;p&gt;- For those of you who need help in the dark, these are&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/08/illuminating_th.php"&gt;some great eco-nightlights&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- Cardboard lamps can go a long way to reducing your dorm &amp;quot;stuff load&amp;quot; --&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/cardboard_lamps.php"&gt;whether you buy these,&lt;/a&gt;&amp;nbsp;or make some yourself.&lt;/p&gt;
+
+&lt;p&gt;- Organic cotton sheets,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/unexpected_gree_9.php"&gt;like these at Bed Bath &amp;amp; Beyond&lt;/a&gt;, or others at Target are a good first step toward and eco-friendly dorm.&lt;/p&gt;
+
+&lt;p&gt;- Loop also makes&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/loop_-_organic.php"&gt;organic cotton linens&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/11/bamboo_fiber_sh.php"&gt;Bamboo also makes great eco-sheets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/09/make_your_dorm.php"&gt;Fair Trade is also an important consideration&lt;/a&gt;&amp;nbsp;for the things you buy in a dorm room - particularly decorations and kitchen fixins like plates and bowls.&lt;/p&gt;
+
+&lt;p&gt;- If you want to go really all-out, and your bed isn&amp;apos;t provided, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/06/itbed.php"&gt;a cardboard platform futon like this one from It Designs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- And, if nothing else, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/treehugger_old_5.php"&gt;hanging on to your dorm room purchases&lt;/a&gt;&amp;nbsp;for as long as you can to reduce waste.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>ca8e6178-e074-4bd3-a47a-9e64a2ef42f4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How to Green Your Dorm Room</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="how-to-green-your-dorm-room">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ec0949b4-2547-4e01-a401-d717047acc32</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>How to Green Your Dorm Room</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/how-to-green-your-dorm-room/how-to-green-your-dorm-room[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:31.651+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T14:00:42.366+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4d0d08e1-e4e1-45ed-83f7-0a987cf63143</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Every year, intrepid young men and women set out for college. Even more exciting than this, is that for many of them, it&amp;apos;s their first chance to live away from home. But, with the excitement and fun of furnishing a new dorm room comes a price. Every year, college students (and their parents) generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be green has never been easier. All it takes is a little effort, a little creativity, and a few tips and tricks. And that&amp;apos;s what Treehugger is here for.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: A newer version of this guide is now live at our sister site, Planet Green. Click on over to&amp;nbsp;&lt;a href="http://planetgreen.discovery.com/go-green/dorm-rooms/index.html"&gt;How to Go Green: Dorm Rooms&lt;/a&gt;&amp;nbsp;for the full story.&lt;/strong&gt;&lt;u&gt;&lt;strong&gt;Top 10 Tips&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Keep it local&lt;/strong&gt;&lt;br /&gt;
+Many college students want an &amp;quot;away from home&amp;quot; experience. Just don&amp;apos;t make it a &amp;quot;shipping tons of stuff all over the country&amp;quot; experience. If it&amp;apos;s your first year at school, try to obtain your furnishings locally when you get to school (See tips 2 and 3). If you&amp;apos;re a returning student, think about local storage — many schools offer storage options.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Use the used&lt;/strong&gt;&lt;br /&gt;
+Sure, this may be your first home away from home, and we understand the urge to decorate with all the coolest new stuff from Target or WalMart. Just consider, for a second, how much waste that would mean, assuming most freshmen get relatively new stuff every year of school. See what we mean? Instead, why not check out great used sources of stuff, like local resale shops, Ebay Local, and Craigslist. You&amp;apos;ll be guaranteed to have a really unique room dÃ©cor (see tip 10 to max this out), and you&amp;apos;ll have money left over to throw wild parties (Um, we mean library study snacks)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Capture the free&lt;/strong&gt;&lt;br /&gt;
+Of course, while cheap used stuff is good, there is something better: Free used stuff. If you&amp;apos;re a new freshman, check out Craigslist or Freecycle in your area to see if there are any items like beds, desks, or lamps that you can score for free. If you stayed at school over the summer for research or whatnot, your university may have a coordinated furniture recycling day. Or, you might just hang around during move-out and see what you can collect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Condition yourself, not your air&lt;/strong&gt;&lt;br /&gt;
+One of the most eco-friendly things you can do as a student is to give up air conditioning. Many universities make it really easy for you to do by banning AC units in dorms. But that doesn&amp;apos;t stop some crafty students from sneaking them in. The trouble is, there are millions of students all over the world, which means the potential for hundreds of thousands of energy-sucking AC units. Instead of AC, why not try opening a window, turning on a fan, taking a cold shower before bed, or studying outside. Of course, if you have to have AC for allergies or some other reason, be sure to get an Energy-Star rated low-energy unit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Be sure your fridge is cool&lt;/strong&gt;&lt;br /&gt;
+Another big energy-sucker of dorms is the ol&amp;apos; microfridge. Of course, the best thing you can do is go fridgeless or check into a shared larger fridge (many dorms have shared kitchens with fridges). But if you must have a fridge to yourself, make sure it&amp;apos;s energy-star or other low-energy certified. This can save you 50% of the energy use of regular appliances.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Cook it right&lt;/strong&gt;&lt;br /&gt;
+You may scoff at the microwave/toaster oven combo, but by combining these two cooking appliances with a cheap rice cooker, you&amp;apos;ve got nearly the perfect eco-kitchen. All three of these appliances boast high energy efficiencies relative to their big-kitchen counterparts (see Getting Techie). Take a look at the end of this article for some great cookbooks using just these mini-cooker powerhouses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Paper please&lt;/strong&gt;&lt;br /&gt;
+Sure, it&amp;apos;s not the most sexy of materials, but there are plenty of paper options for dorm dÃ©cor that can be recycled when you out-grow them in a few years. Check out paper wall tiles from MioCulture, paper window treatments from Redi Shade, or make your own paper lampshades. (links)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. See the light&lt;/strong&gt;&lt;br /&gt;
+Halogen torchiere lamps are all the rage right now. They&amp;apos;re super cheap, put out tons of light, and fit in a corner with ease. Unfortunately, some of them use hundreds of watts of electricity, and they&amp;apos;ve been known to cause fires. Stick with compact fluorescents. The newer ones put out great light, use just a trickle of electricity, and last almost forever. This is one thing worth buying again every time you move; by leaving them for your next tenant, you&amp;apos;ll be spreading the green love with every new apartment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Don&amp;apos;t let the sheets hit the fan&lt;/strong&gt;&lt;br /&gt;
+Linens for your new room will make up the bulk of the rest of your buying. When you look for sheets, curtains, or towels, go for organic cotton, if possible. It&amp;apos;s still the same cottony goodness, but you&amp;apos;ll rest easy knowing it&amp;apos;s grown without nasty pesticides.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Re-used doesn&amp;apos;t have to mean re-pulsive&lt;/strong&gt;&lt;br /&gt;
+Just because you got used stuff, doesn&amp;apos;t mean it has to be old and moldy. This is college. You&amp;apos;re supposed to be wild and experimental. So go crazy. Why not try sewing some cushion covers, or pillows for that old couch. Or invite some of your new friends over for a painting party on that old dresser and table. Unleash your inner crafter with great magazines like Make, or Readymade, or sites like Craft, or Inventibles. (links here)&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;So You Wanna Do More?&amp;nbsp;&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;Get the word out&lt;/strong&gt;&lt;br /&gt;
+We recommended that you try to get used furniture for your room, but what if your school doesn&amp;apos;t have a furniture-recycling program? Why not start one yourself. Stuff exchanges are a great way to meet the students around you, and score some new stuff for your old. Put up flyers around your dorm, and spread the word. Or, for a bigger splash, try talking to your head of student affairs or resident life. Furniture waste is a problem for universities too, so they&amp;apos;ll probably jump at the chance to help.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Getting Techie&lt;/strong&gt;&amp;nbsp;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Why are microwaves and crockpots so good?&lt;/strong&gt;&lt;br /&gt;
+Cooking options like microwave ovens, toaster ovens, crock pots, and rice cookers concentrate the heat in the food, instead of heating so much extra air, or metal like conventional ovens and frying pans do. Electric grills are also heavy-duty energy users because they operate at such high temperatures (this also makes them fire hazards, and banned by many dorms). The lowest energy way to a meal is to think about what you need heated up, and what tool best to heat it with. Microwaves heat evenly throughout the food, especially if it is wet, like mashed potatoes, boiling water, or meat. Toaster ovens are really good at browning the surface of food (try cooking chicken or steak part way in a microwave and then browning in a toaster oven. It&amp;apos;s super fast, and delicious.). Rice cookers are great for rice, or rice and frozen vegetables, and some of them come with attachments to steam veggies like broccoli at the same time. Crock pots are a whole other kind of cooking, but with practice, and a good cookbook, they can be the easiest and tastiest kind of food preparation, especially for a time-crunched student.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;By The Numbers&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;+ According to the National Retail Federation, $3.6 billion will be spent this year outfitting dorms.&amp;nbsp;&lt;br /&gt;
++ According to the US Bureau of Labor, 1.8 million new freshmen entered college in the United States in fall 2005.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;From The Archives&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Treehugger.com has been a leader in promoting the green lifestyle and has numerous resources on how others have done just that. For more information, you can begin by checking out the section on Treehugger.com. The articles below were posted on Treehugger and focus on everything you need to have the most kicking dorm room without kicking mother earth&amp;apos;s butt.&lt;br /&gt;
+&lt;br /&gt;
+- Check out these tips on&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/06/user_tips_for_c.php"&gt;Compact Fluorescent bulbs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- If you&amp;apos;re looking to get a good deal on CFL&amp;apos;s,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/08/walmart_to_sell.php"&gt;Walmart may be a low-cost&lt;/a&gt;&amp;nbsp;place to look.&lt;/p&gt;
+
+&lt;p&gt;- For those of you who need help in the dark, these are&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/08/illuminating_th.php"&gt;some great eco-nightlights&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- Cardboard lamps can go a long way to reducing your dorm &amp;quot;stuff load&amp;quot; --&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/cardboard_lamps.php"&gt;whether you buy these,&lt;/a&gt;&amp;nbsp;or make some yourself.&lt;/p&gt;
+
+&lt;p&gt;- Organic cotton sheets,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/unexpected_gree_9.php"&gt;like these at Bed Bath &amp;amp; Beyond&lt;/a&gt;, or others at Target are a good first step toward and eco-friendly dorm.&lt;/p&gt;
+
+&lt;p&gt;- Loop also makes&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/loop_-_organic.php"&gt;organic cotton linens&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/11/bamboo_fiber_sh.php"&gt;Bamboo also makes great eco-sheets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/09/make_your_dorm.php"&gt;Fair Trade is also an important consideration&lt;/a&gt;&amp;nbsp;for the things you buy in a dorm room - particularly decorations and kitchen fixins like plates and bowls.&lt;/p&gt;
+
+&lt;p&gt;- If you want to go really all-out, and your bed isn&amp;apos;t provided, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/06/itbed.php"&gt;a cardboard platform futon like this one from It Designs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- And, if nothing else, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/treehugger_old_5.php"&gt;hanging on to your dorm room purchases&lt;/a&gt;&amp;nbsp;for as long as you can to reduce waste.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>ca8e6178-e074-4bd3-a47a-9e64a2ef42f4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="how-to-green-your-dorm-room">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gogreen:bannerdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9df64797-136e-4b71-9508-88e3adaccdc6</sv:value>
+      </sv:property>
+      <sv:property sv:name="gogreen:title" sv:type="String">
+        <sv:value>How to Green Your Dorm Room</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>banners/how-to-green-your-dorm-room/how-to-green-your-dorm-room[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-06-21T13:59:31.651+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-06-21T14:00:42.366+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-06-21T14:00:46.594+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4d0d08e1-e4e1-45ed-83f7-0a987cf63143</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Every year, intrepid young men and women set out for college. Even more exciting than this, is that for many of them, it&amp;apos;s their first chance to live away from home. But, with the excitement and fun of furnishing a new dorm room comes a price. Every year, college students (and their parents) generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be green has never been easier. All it takes is a little effort, a little creativity, and a few tips and tricks. And that&amp;apos;s what Treehugger is here for.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update: A newer version of this guide is now live at our sister site, Planet Green. Click on over to&amp;nbsp;&lt;a href="http://planetgreen.discovery.com/go-green/dorm-rooms/index.html"&gt;How to Go Green: Dorm Rooms&lt;/a&gt;&amp;nbsp;for the full story.&lt;/strong&gt;&lt;u&gt;&lt;strong&gt;Top 10 Tips&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Keep it local&lt;/strong&gt;&lt;br /&gt;
+Many college students want an &amp;quot;away from home&amp;quot; experience. Just don&amp;apos;t make it a &amp;quot;shipping tons of stuff all over the country&amp;quot; experience. If it&amp;apos;s your first year at school, try to obtain your furnishings locally when you get to school (See tips 2 and 3). If you&amp;apos;re a returning student, think about local storage — many schools offer storage options.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Use the used&lt;/strong&gt;&lt;br /&gt;
+Sure, this may be your first home away from home, and we understand the urge to decorate with all the coolest new stuff from Target or WalMart. Just consider, for a second, how much waste that would mean, assuming most freshmen get relatively new stuff every year of school. See what we mean? Instead, why not check out great used sources of stuff, like local resale shops, Ebay Local, and Craigslist. You&amp;apos;ll be guaranteed to have a really unique room dÃ©cor (see tip 10 to max this out), and you&amp;apos;ll have money left over to throw wild parties (Um, we mean library study snacks)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Capture the free&lt;/strong&gt;&lt;br /&gt;
+Of course, while cheap used stuff is good, there is something better: Free used stuff. If you&amp;apos;re a new freshman, check out Craigslist or Freecycle in your area to see if there are any items like beds, desks, or lamps that you can score for free. If you stayed at school over the summer for research or whatnot, your university may have a coordinated furniture recycling day. Or, you might just hang around during move-out and see what you can collect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Condition yourself, not your air&lt;/strong&gt;&lt;br /&gt;
+One of the most eco-friendly things you can do as a student is to give up air conditioning. Many universities make it really easy for you to do by banning AC units in dorms. But that doesn&amp;apos;t stop some crafty students from sneaking them in. The trouble is, there are millions of students all over the world, which means the potential for hundreds of thousands of energy-sucking AC units. Instead of AC, why not try opening a window, turning on a fan, taking a cold shower before bed, or studying outside. Of course, if you have to have AC for allergies or some other reason, be sure to get an Energy-Star rated low-energy unit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Be sure your fridge is cool&lt;/strong&gt;&lt;br /&gt;
+Another big energy-sucker of dorms is the ol&amp;apos; microfridge. Of course, the best thing you can do is go fridgeless or check into a shared larger fridge (many dorms have shared kitchens with fridges). But if you must have a fridge to yourself, make sure it&amp;apos;s energy-star or other low-energy certified. This can save you 50% of the energy use of regular appliances.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Cook it right&lt;/strong&gt;&lt;br /&gt;
+You may scoff at the microwave/toaster oven combo, but by combining these two cooking appliances with a cheap rice cooker, you&amp;apos;ve got nearly the perfect eco-kitchen. All three of these appliances boast high energy efficiencies relative to their big-kitchen counterparts (see Getting Techie). Take a look at the end of this article for some great cookbooks using just these mini-cooker powerhouses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Paper please&lt;/strong&gt;&lt;br /&gt;
+Sure, it&amp;apos;s not the most sexy of materials, but there are plenty of paper options for dorm dÃ©cor that can be recycled when you out-grow them in a few years. Check out paper wall tiles from MioCulture, paper window treatments from Redi Shade, or make your own paper lampshades. (links)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. See the light&lt;/strong&gt;&lt;br /&gt;
+Halogen torchiere lamps are all the rage right now. They&amp;apos;re super cheap, put out tons of light, and fit in a corner with ease. Unfortunately, some of them use hundreds of watts of electricity, and they&amp;apos;ve been known to cause fires. Stick with compact fluorescents. The newer ones put out great light, use just a trickle of electricity, and last almost forever. This is one thing worth buying again every time you move; by leaving them for your next tenant, you&amp;apos;ll be spreading the green love with every new apartment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Don&amp;apos;t let the sheets hit the fan&lt;/strong&gt;&lt;br /&gt;
+Linens for your new room will make up the bulk of the rest of your buying. When you look for sheets, curtains, or towels, go for organic cotton, if possible. It&amp;apos;s still the same cottony goodness, but you&amp;apos;ll rest easy knowing it&amp;apos;s grown without nasty pesticides.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Re-used doesn&amp;apos;t have to mean re-pulsive&lt;/strong&gt;&lt;br /&gt;
+Just because you got used stuff, doesn&amp;apos;t mean it has to be old and moldy. This is college. You&amp;apos;re supposed to be wild and experimental. So go crazy. Why not try sewing some cushion covers, or pillows for that old couch. Or invite some of your new friends over for a painting party on that old dresser and table. Unleash your inner crafter with great magazines like Make, or Readymade, or sites like Craft, or Inventibles. (links here)&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;So You Wanna Do More?&amp;nbsp;&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;Get the word out&lt;/strong&gt;&lt;br /&gt;
+We recommended that you try to get used furniture for your room, but what if your school doesn&amp;apos;t have a furniture-recycling program? Why not start one yourself. Stuff exchanges are a great way to meet the students around you, and score some new stuff for your old. Put up flyers around your dorm, and spread the word. Or, for a bigger splash, try talking to your head of student affairs or resident life. Furniture waste is a problem for universities too, so they&amp;apos;ll probably jump at the chance to help.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Getting Techie&lt;/strong&gt;&amp;nbsp;&lt;/u&gt;&lt;br /&gt;
+&lt;strong&gt;1. Why are microwaves and crockpots so good?&lt;/strong&gt;&lt;br /&gt;
+Cooking options like microwave ovens, toaster ovens, crock pots, and rice cookers concentrate the heat in the food, instead of heating so much extra air, or metal like conventional ovens and frying pans do. Electric grills are also heavy-duty energy users because they operate at such high temperatures (this also makes them fire hazards, and banned by many dorms). The lowest energy way to a meal is to think about what you need heated up, and what tool best to heat it with. Microwaves heat evenly throughout the food, especially if it is wet, like mashed potatoes, boiling water, or meat. Toaster ovens are really good at browning the surface of food (try cooking chicken or steak part way in a microwave and then browning in a toaster oven. It&amp;apos;s super fast, and delicious.). Rice cookers are great for rice, or rice and frozen vegetables, and some of them come with attachments to steam veggies like broccoli at the same time. Crock pots are a whole other kind of cooking, but with practice, and a good cookbook, they can be the easiest and tastiest kind of food preparation, especially for a time-crunched student.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;By The Numbers&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;+ According to the National Retail Federation, $3.6 billion will be spent this year outfitting dorms.&amp;nbsp;&lt;br /&gt;
++ According to the US Bureau of Labor, 1.8 million new freshmen entered college in the United States in fall 2005.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;From The Archives&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Treehugger.com has been a leader in promoting the green lifestyle and has numerous resources on how others have done just that. For more information, you can begin by checking out the section on Treehugger.com. The articles below were posted on Treehugger and focus on everything you need to have the most kicking dorm room without kicking mother earth&amp;apos;s butt.&lt;br /&gt;
+&lt;br /&gt;
+- Check out these tips on&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/06/user_tips_for_c.php"&gt;Compact Fluorescent bulbs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- If you&amp;apos;re looking to get a good deal on CFL&amp;apos;s,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/08/walmart_to_sell.php"&gt;Walmart may be a low-cost&lt;/a&gt;&amp;nbsp;place to look.&lt;/p&gt;
+
+&lt;p&gt;- For those of you who need help in the dark, these are&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/08/illuminating_th.php"&gt;some great eco-nightlights&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- Cardboard lamps can go a long way to reducing your dorm &amp;quot;stuff load&amp;quot; --&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/cardboard_lamps.php"&gt;whether you buy these,&lt;/a&gt;&amp;nbsp;or make some yourself.&lt;/p&gt;
+
+&lt;p&gt;- Organic cotton sheets,&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/05/unexpected_gree_9.php"&gt;like these at Bed Bath &amp;amp; Beyond&lt;/a&gt;, or others at Target are a good first step toward and eco-friendly dorm.&lt;/p&gt;
+
+&lt;p&gt;- Loop also makes&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/loop_-_organic.php"&gt;organic cotton linens&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/11/bamboo_fiber_sh.php"&gt;Bamboo also makes great eco-sheets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/09/make_your_dorm.php"&gt;Fair Trade is also an important consideration&lt;/a&gt;&amp;nbsp;for the things you buy in a dorm room - particularly decorations and kitchen fixins like plates and bowls.&lt;/p&gt;
+
+&lt;p&gt;- If you want to go really all-out, and your bed isn&amp;apos;t provided, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2006/06/itbed.php"&gt;a cardboard platform futon like this one from It Designs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;- And, if nothing else, consider&amp;nbsp;&lt;a href="http://www.treehugger.com/files/2005/10/treehugger_old_5.php"&gt;hanging on to your dorm room purchases&lt;/a&gt;&amp;nbsp;for as long as you can to reduce waste.&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="gogreen:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>ca8e6178-e074-4bd3-a47a-9e64a2ef42f4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="gogreen:link">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
